@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import SongObject from './SongObject';
+import Track from '../Track/Track';
 
 export default function SearchResults(props) {
     return(

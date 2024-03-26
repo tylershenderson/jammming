@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function SongObject(props){
+export default function Track(props){
     const [src, title, artist] = props
         return(
             <div>
