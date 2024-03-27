@@ -35,3 +35,7 @@
     font-weight: 300;
     color: rgba(256, 256, 256, 0.8);
 }
+.TrackImage {
+    height: 62px;
+    margin-right: 10px;
+}

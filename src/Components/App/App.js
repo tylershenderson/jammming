@@ -64,6 +64,7 @@ function App() {
     })
   }
   function search(term){
+    //3. Call component method, APIU returns search object array formatted as id,name,artist,album,uri 
     Spotify.search(term).then((result) => setSearchResults(result))
     console.log(term);
   }
@@ -76,7 +77,7 @@ function App() {
         {/* <!-- Add a SearchBar component --> */}
         <SearchBar onSearch={search}/>
         <div className={styles["App-playlist"]}>
-          {/* <!-- Add a SearchResults component --> */}
+          {/* 4. pass object array of search function to the search results component */}
           <SearchResults userSearchResults={searchResults} onAdd={addTrack} />
           {/* <!-- Add a Playlist component --> */}
           <Playlist

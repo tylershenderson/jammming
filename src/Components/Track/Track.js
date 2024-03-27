@@ -15,8 +15,10 @@ function Track (props) {
   function passTrackToRemove(){
     props.onRemove(props.track)
   }
+  console.log(props.track)
     return (
       <div className={styles.Track}>
+        <img src={props.track.image} className={styles["TrackImage"]}/>
         <div className={styles["Track-information"]}>
           {/* <h3><!-- track name will go here --></h3> */}
           <h3>{props.track.name}</h3>
