@@ -1,6 +1,6 @@
 let accessToken ="";
 const clientID = "a6cfec82c7e24d0981b05c53712478b3";
-const redirectURL = "https://cosmic-fairy-eb9dfa.netlify.app";
+const redirectURL = "https://plumjammming.netlify.app";
 
 const Spotify = {
   getAccessToken() {
