@@ -19,7 +19,7 @@ function Track (props) {
     return (
       <div className={styles.Track}>
         <img src={props.track.image} className={styles["TrackImage"]}/>
-        <div className={styles["Track-information"]}>
+        <div className={styles["Track-information"]} alt="Album Cover">
           {/* <h3><!-- track name will go here --></h3> */}
           <h3>{props.track.name}</h3>
           {/* <p><!-- track artist will go here--> | <!-- track album will go here --></p> */}
